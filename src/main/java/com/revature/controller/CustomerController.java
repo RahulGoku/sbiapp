@@ -12,6 +12,7 @@ import com.revature.model.Customer;
 public class CustomerController {
 	@GetMapping("/greet")
 	public String welcome() {
+		System.out.println("Hello buddy ...." );
 		return "welcome to revature buddy";
 	}
 	@GetMapping("/greeting")
