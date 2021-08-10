@@ -12,7 +12,7 @@ import com.revature.model.Customer;
 public class CustomerController {
 	@GetMapping("/greet")
 	public String welcome() {
-		return "welcome to revature";
+		return "welcome to revature buddy";
 	}
 	@GetMapping("/greeting")
 	public String invite() {
